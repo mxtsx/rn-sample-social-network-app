@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Sample Social Network",
+    "slug": "sample-social-network",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#457b9d"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mxtsxdev.sample-social-network",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.mxtsxdev.sample_social_network",
+      "versionCode": 1,
+      "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE"]
+    },
+    "web": {
+      "favicon": "./assets/splash.png"
+    }
+  }
+}
